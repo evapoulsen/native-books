@@ -8,12 +8,12 @@ function HomeScreen({ navigation }) {
       <View style={styles.buttonsContainer}>
         <Button
           title="Go to Books"
-          onPress={() => navigation.navigate('Books', { name: 'My Books'} )}
+          onPress={() => navigation.navigate('My Books', { name: 'My Books'} )}
           color= '#A9A9F5'
         />
         <Button
           title="Go to Authors"
-          onPress={() => navigation.navigate('Authors', { name: 'The Authors'})}
+          onPress={() => navigation.navigate('The Authors', { name: 'The Authors'})}
           color= '#2ECCFA'
         />
       </View>
