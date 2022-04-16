@@ -9,7 +9,6 @@ import LogoTitle from './src/screen/LogoTitle';
 
 
 const Stack = createNativeStackNavigator();
-
 function App() {
   return (
     <NavigationContainer>
@@ -18,7 +17,7 @@ function App() {
           name="Home"
           component={HomeScreen}
           options={{
-            headerLeft: (props) => <LogoTitle {...props} onPress={() => navigation.goBack()}/>,
+            headerTitle: (props) => <LogoTitle {...props}/>,
             title: 'My Home',
             headerRight: () => (
               <Button
@@ -42,9 +41,8 @@ function App() {
         />
       </Stack.Navigator>
     </NavigationContainer>
-  );
-}
-
+  )
+        }
 
 export default App;
 
