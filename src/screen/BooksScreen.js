@@ -1,11 +1,12 @@
 import React from "react";
 import { View, Text } from "react-native";
+import BookList from "../components/BookList";
 
 const BooksScreen = () => {
 
     return (
         <View style={styles.bookScreenStyle}>
-            <Text>Books Screen</Text>
+            <BookList />
         </View>
     );
 }
