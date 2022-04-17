@@ -12,3 +12,4 @@ const BookDetailScreen = (props) => {
 const styles = StyleSheet.create({});
 
 export default BookDetailScreen;
+

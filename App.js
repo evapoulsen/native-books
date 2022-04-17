@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import MainScreen from './src/screen/DrawerNav';
+import MainScreen from './src/screen/MainScreen';
 import 'react-native-gesture-handler';
 import 'react-native-reanimated';
 

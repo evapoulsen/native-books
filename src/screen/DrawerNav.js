@@ -9,7 +9,7 @@ const Drawer = createDrawerNavigator();
 function DrawerNav() {
   return (
 
-      <Drawer.Navigator initialRouteName="My Library">
+      <Drawer.Navigator initialRouteName="My Library" routeName="">
         <Drawer.Screen name="My Library" component={MainScreen} />
         <Drawer.Screen name="My Books" component={BooksScreen} />
         <Drawer.Screen name="The Authors" component={AuthorsScreen} />
