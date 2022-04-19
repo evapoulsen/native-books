@@ -1061,6 +1061,11 @@
   dependencies:
     "@types/hammerjs" "^2.0.36"
 
+"@expo-google-fonts/fjalla-one@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/fjalla-one/-/fjalla-one-0.2.2.tgz#7dd2881dc8909c01dfe7e8e2bffac4b7a3ea8f58"
+  integrity sha512-GvuVc7L9QtHmEpNx5AuqSmfkatu6+oPAelVo91h558h80aRnv/Do9GT2k2KRAstSrMSTBeLK6rsL9ofdhCb8Lg==
+
 "@expo-google-fonts/montserrat@^0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@expo-google-fonts/montserrat/-/montserrat-0.2.2.tgz#1c2522b6fcacf7a3b561db2f3fd7a90a52613db1"

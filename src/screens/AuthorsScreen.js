@@ -1,10 +1,11 @@
 import React from "react";
 import { View, Text } from "react-native";
+import AuthorsList from "../components/AuthorsList";
 
 const AuthorsScreen = () => {
     return (
         <View style={styles.container}>
-            <Text>Authors Screen</Text>
+            <AuthorsList />
         </View>
     );
 };
