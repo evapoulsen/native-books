@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Button, Text } from "react-native";
 
-const HomeScreen = () => {
+const HomeScreen = ({ navigation }) => {
 
     return (
         <View style={styles.homeStyle}>
@@ -10,10 +10,12 @@ const HomeScreen = () => {
                 <Button
                 title="Go to Books"
                 color= '#A9A9F5'
+                onPress={() => navigation.navigate('Books')}
                 />
                 <Button
                 title="Go to Authors"
                 color= '#2ECCFA'
+                onPress={() => navigation.navigate('Authors')}
                 />
             </View>
         </View>
@@ -32,3 +34,4 @@ const styles = {
 }
 
 export default HomeScreen;
+
