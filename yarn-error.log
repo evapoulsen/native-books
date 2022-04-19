@@ -1,5 +1,5 @@
 Arguments: 
-  /opt/homebrew/Cellar/node/17.9.0/bin/node /Users/au216119/.yarn/releases/yarn-1.22.10.cjs add @expo/vector-icons
+  /opt/homebrew/Cellar/node/17.9.0/bin/node /Users/au216119/.yarn/releases/yarn-1.22.10.cjs add expo-font@~10.0.4 @expo-google-fonts/montserrat
 
 PATH: 
   /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/laps:/usr/local/munki:/Library/Apple/usr/bin:/Users/au216119/Library/Android/sdk/platform-tools
@@ -31,7 +31,7 @@ npm manifest:
     "dependencies": {
       "@expo-google-fonts/raleway": "^0.2.2",
       "@expo-google-fonts/work-sans": "^0.2.2",
-      "@expo/vector-icons": "^12.0.0",
+      "@expo/vector-icons": "^12.0.5",
       "@react-navigation/bottom-tabs": "^6.3.1",
       "@react-navigation/drawer": "^6.4.1",
       "@react-navigation/native": "^6.0.10",
@@ -1325,7 +1325,7 @@ Lockfile:
     dependencies:
       cross-spawn "^6.0.5"
   
-  "@expo/vector-icons@^12.0.0", "@expo/vector-icons@^12.0.4":
+  "@expo/vector-icons@^12.0.4", "@expo/vector-icons@^12.0.5":
     version "12.0.5"
     resolved "https://registry.yarnpkg.com/@expo/vector-icons/-/vector-icons-12.0.5.tgz#bc508ad05fb7e9a3e008704977cfec6c18aa7728"
     integrity sha512-zWvHBmkpbi1KrPma6Y+r/bsGI6MjbM1MBSe6W9A4uYMLhNI5NR4JtTnqxhf7g1XdpaDtBdv5aOWKEx4d5rxnhg==
