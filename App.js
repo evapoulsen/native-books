@@ -1,17 +1,11 @@
-import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import MainScreen from './src/screen/MainScreen';
-import 'react-native-gesture-handler';
-import 'react-native-reanimated';
+import React from "react";
+import HomeScreen from "./src/screens/HomeScreen";
 
-
-
-function App() {
+const App = () => {
 	return (
-		<NavigationContainer>
-			<MainScreen />
-		</NavigationContainer>
+		<HomeScreen />
 	);
-}
+};
 
 export default App;
+
