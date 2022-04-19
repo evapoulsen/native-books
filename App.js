@@ -39,7 +39,7 @@ const App = () => {
 				options={({route}) => ({title: route.params.name})} 
 				/>
 				<Stack.Screen
-				name="Details"
+				name="Book Details"
 				component={BookDetailScreen}
 				/>
 			</Stack.Navigator>
