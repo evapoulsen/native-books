@@ -1,5 +1,5 @@
 Arguments: 
-  /opt/homebrew/Cellar/node/17.9.0/bin/node /Users/au216119/.yarn/releases/yarn-1.22.10.cjs add @expo-google-font/ms-madi expo-font@~10.0.4
+  /opt/homebrew/Cellar/node/17.9.0/bin/node /Users/au216119/.yarn/releases/yarn-1.22.10.cjs add react-native-screens
 
 PATH: 
   /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/laps:/usr/local/munki:/Library/Apple/usr/bin:/Users/au216119/Library/Android/sdk/platform-tools
@@ -14,17 +14,7 @@ Platform:
   darwin arm64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@expo-google-font%2fms-madi: Not found
-      at Request.params.callback [as _callback] (/Users/au216119/.yarn/releases/yarn-1.22.10.cjs:78518:18)
-      at Request.self.callback (/Users/au216119/.yarn/releases/yarn-1.22.10.cjs:135160:22)
-      at Request.emit (node:events:527:28)
-      at Request.<anonymous> (/Users/au216119/.yarn/releases/yarn-1.22.10.cjs:136132:10)
-      at Request.emit (node:events:527:28)
-      at IncomingMessage.<anonymous> (/Users/au216119/.yarn/releases/yarn-1.22.10.cjs:136054:12)
-      at Object.onceWrapper (node:events:641:28)
-      at IncomingMessage.emit (node:events:539:35)
-      at endReadableNT (node:internal/streams/readable:1345:12)
-      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+  Error: EACCES: permission denied, mkdir '/Users/au216119/Documents/AWD-Examples/native/books/node_modules/react-native-reanimated/node_modules/react-native-screens'
 
 npm manifest: 
   {
@@ -39,6 +29,7 @@ npm manifest:
       "eject": "expo eject"
     },
     "dependencies": {
+      "@expo-google-fonts/fjalla-one": "^0.2.2",
       "@expo-google-fonts/montserrat": "^0.2.2",
       "@expo-google-fonts/raleway": "^0.2.2",
       "@expo-google-fonts/work-sans": "^0.2.2",
@@ -1132,6 +1123,11 @@ Lockfile:
     integrity sha512-XQsZgjm2EcVUiZQf11UBJQfmZeEmOW8DpI1gsFeln6w0ae0ii4dMQEQ0kjl6DspdWX1aGY1/loyXnP0JS06e/A==
     dependencies:
       "@types/hammerjs" "^2.0.36"
+  
+  "@expo-google-fonts/fjalla-one@^0.2.2":
+    version "0.2.2"
+    resolved "https://registry.yarnpkg.com/@expo-google-fonts/fjalla-one/-/fjalla-one-0.2.2.tgz#7dd2881dc8909c01dfe7e8e2bffac4b7a3ea8f58"
+    integrity sha512-GvuVc7L9QtHmEpNx5AuqSmfkatu6+oPAelVo91h558h80aRnv/Do9GT2k2KRAstSrMSTBeLK6rsL9ofdhCb8Lg==
   
   "@expo-google-fonts/montserrat@^0.2.2":
     version "0.2.2"

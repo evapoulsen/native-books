@@ -5,6 +5,7 @@ import HomeScreen from "./src/screens/HomeScreen";
 import BooksScreen from "./src/screens/BooksScreen";
 import AuthorsScreen from "./src/screens/AuthorsScreen";
 import LogoTitle from "./src/screens/LogoTitle";
+import BookDetailScreen from "./src/screens/BookDetailScreen";
 import { Button } from "react-native";
 
 const Stack = createNativeStackNavigator();
@@ -36,6 +37,10 @@ const App = () => {
 				name="Authors" 
 				component={AuthorsScreen} 
 				options={({route}) => ({title: route.params.name})} 
+				/>
+				<Stack.Screen
+				name="Details"
+				component={BookDetailScreen}
 				/>
 			</Stack.Navigator>
 		</NavigationContainer>
