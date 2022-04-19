@@ -5,7 +5,7 @@ import books from "../../data/books.json";
 import { useFonts, Montserrat_300Light } from '@expo-google-fonts/montserrat';
 import { useNavigation } from '@react-navigation/native';
 
-const BookList = (props) => {
+const BookList = () => {
     let [fontsLoaded] = useFonts({
         Montserrat_300Light,
     });
@@ -22,7 +22,7 @@ const BookList = (props) => {
             return (
               <TouchableOpacity 
                 onPress={() => {
-                  navigation.navigate("Book Details")
+                  navigation.navigate("Book Details", {item})
                 }}
               >
               <Text style={styles.textStyle}>{item.title}</Text>
